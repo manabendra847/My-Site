@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background-color: #88bdfd8f;
+    width: 100%;
+}
+
+.cloud1{
+    position: relative;
+    top: 3rem;
+    margin-left: 65vw;
+}
+
+.title{
+    color: #9a6fff;
+    position: relative;
+    text-align: center;
+    top: 1rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 2.2rem;
+}
+.title h2{
+    font-size:1.2rem;
+    font-family:cursive;
+    color: #a99cff;
+}
+.cloud2{
+    position:relative;
+    top: 1rem;
+    margin-left: 15vw;
+}
+.mountain{
+    position: relative;
+    text-align: center;
+}
+.middle-container{
+    background-color: #ceefffe1;
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    margin-top: 3rem;
+    text-align: center;
+    color: #2e2442;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+.skills h2{
+    color: #9a6fff;
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.skill_text{
+    width: 40vw;
+}
+.skill-row1{
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+    color: #2e2442;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 23vw;
+}
+.skill-row1 h3{
+    color: #b191fc;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.skill-row2{
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+    color: #2e2442;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 25vw;
+}
+.skill-row2 h3{
+    color: #b191fc;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.contact-me{
+    color: #9a6fff;
+    font-size: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+.contact-me h3{
+    color: #b191fc;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contact-me p{
+    color: #2e2442;
+    font-size: 1.5rem;
+}
+.btn{
+    background-color:   #573799c9;
+    border-radius: 4%;
+    font-family: 'Montserrat', sans-serif;
+    color: #cbe7f5;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:   #6542ab95;
+}
+
+
+
+.bottom-container{
+    text-align: center;
+    background-color: #7da8f4bb;
+    height: 130px;
+}
+.bottom-container p{
+    position: relative;
+    top: 60px;
+}
+.footer-link1{
+    color: #5941f5;
+    position: relative;
+    top: 20%;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.footer-link1:hover{
+    color: #9687f7;
+}
+.footer-link2{
+    color: #5941f5;
+    position: relative;
+    top: 20%;
+    text-decoration: none;
+}
+.footer-link2:hover{
+    color: #9687f7;
+}
+.footer-link3{
+    color: #5941f5;
+    position: relative;
+    top: 20%;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.footer-link3:hover{
+    color: #9687f7;
+}
+hr {
+    border: dotted #c7a2fa88 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+  }
