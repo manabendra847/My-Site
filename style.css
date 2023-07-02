@@ -168,7 +168,10 @@ body{
 }
 hr {
     border: dotted #c7a2fa88 6px;
-
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+  }
 
 
     /* preloader */
@@ -274,8 +277,4 @@ hr {
     100%{
         transform: rotate(360deg);
     }
-  }
-    border-bottom: none;
-    width: 4%;
-    margin: 50px auto;
   }
