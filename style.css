@@ -168,6 +168,113 @@ body{
 }
 hr {
     border: dotted #c7a2fa88 6px;
+
+
+
+    /* preloader */
+  #preloader{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+  }
+
+  .center_loader{
+    position: relative;
+    width: 10rem;
+    height: 7rem;
+  }
+  
+  /* .rot{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-left: 0.3rem solid #8c00fe;
+    border-radius: 100%;
+    animation: rot 3s linear infinite;
+  } */
+
+  .rot{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-left: 0.3rem solid #fe0000;
+    border-top: 0.3rem solid #2afe00;
+    border-right: 0.3rem solid #00fec3;
+    border-bottom: 0.3rem solid #8c00fe;
+    border-radius: 50%;
+    animation: rot 4s linear infinite;
+  }
+
+  /* .rot{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-left: 0.1rem solid #8c00fe;
+    border-right: 0.1rem solid #8c00fe;
+    border-top: 0.4rem solid #8c00fe;
+    border-bottom: 0.4rem solid #8c00fe;
+    border-radius: 30%;
+    animation: rot 3s linear infinite;
+  } */
+
+  /* .rot{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-left: 0.1rem solid #fefa00;
+    border-right: 0.1rem solid #fef600;
+    border-top: 0.2rem solid #fee900;
+    border-radius: 50%;
+    animation: rot 1s linear infinite;
+  } */
+
+  /* .rot{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-left: 0.1rem solid #8c00fe;
+    border-radius: 30%;
+    animation: rot 0.3s linear infinite;
+  } */
+  
+  /* .rot{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-left: 0.4rem solid #f8f6f7;
+    border-radius: 50%;
+    animation: rot 0.01s linear infinite;
+  } */
+
+  /* .rot{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-left: 0.1rem solid #8e51cb;
+    border-right: 0.1rem solid #8e51cb;
+    border-radius: 30%;
+    animation: rot .2s linear infinite;
+  } */
+
+  .center_loader h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  @keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+  }
     border-bottom: none;
     width: 4%;
     margin: 50px auto;
